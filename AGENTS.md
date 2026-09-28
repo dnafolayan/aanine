@@ -2,13 +2,14 @@
 
 ## Project Structure
 
-Aanine is a single-page React site built with TypeScript, Vite, and Tailwind CSS 4. Application composition lives in `src/App.tsx`; page sections and their content are in `src/components/PageSections.tsx`; the header and footer have separate component files. Shared styles and responsive rules are in `src/index.css`. Reusable browser behavior belongs in `src/hooks/`. Static files such as `robots.txt` belong in `public/`. `scripts/prerender.mjs` inserts server-rendered content into the production HTML for crawlability. There is currently no test directory or test suite.
+Aanine is a single-page React site built with TypeScript, Vite, and Tailwind CSS 4. Application composition lives in `src/App.tsx`; page sections and their content are in `src/components/PageSections.tsx`; the header and footer have separate component files. Shared styles and responsive rules are in `src/index.css`. Reusable browser behavior belongs in `src/hooks/`. Static files such as `robots.txt` belong in `public/`. `scripts/prerender.mjs` inserts server-rendered content into the production HTML for crawlability. Social preview artwork is authored in `public/og-image.svg` and exported as `public/og-image.png` by `scripts/generate-og-image.mjs`. There is currently no test directory or test suite.
 
 ## Development and Build Commands
 
 - `npm install` installs the dependencies recorded in `package-lock.json`.
 - `npm run dev` starts the local Vite development server.
-- `npm run build` runs TypeScript project checks, builds the client and server bundles, and prerenders the page into `dist/`.
+- `npm run generate:og` exports the social preview SVG as a 1200 × 630 PNG.
+- `npm run build` regenerates the social preview image, runs TypeScript project checks, builds the client and server bundles, and prerenders the page into `dist/`.
 - `npm run preview` serves the production build locally; run `npm run build` first.
 
 ## Coding Style
