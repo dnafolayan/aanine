@@ -216,7 +216,7 @@ h4 {
 
 .wordmark span { color: var(--color-brand); }
 .wordmark--nav { display: inline-flex; align-items: center; flex: 0 0 auto; }
-.wordmark--nav img { width: 8.25rem; height: auto; }
+.wordmark--nav img { display: block; width: 8.25rem; height: auto; }
 
 .site-nav,
 .footer-nav {
@@ -436,14 +436,14 @@ h4 {
 
 .site-footer { padding-block: 3rem 1.25rem; background: #111922; color: #f4f1ea; }
 .site-footer__top { display: grid; grid-template-columns: 1fr auto; align-items: start; gap: 3rem; padding-bottom: 2.5rem; }
-.wordmark--footer { font-size: 1.6rem; }
+.wordmark--footer { display: inline-flex; }
+.wordmark--footer img { display: block; width: 6.5rem; height: auto; }
 .site-footer__top > div > p { margin-top: 0.8rem; color: #c0c8ca; font-size: var(--text-sm); }
 .footer-nav { align-items: flex-start; flex-wrap: wrap; gap: 0.75rem 1.5rem; padding-top: 0.4rem; }
 .back-to-top { position: fixed; right: max(1.25rem, env(safe-area-inset-right)); bottom: max(1.25rem, env(safe-area-inset-bottom)); z-index: 20; display: grid; width: 2.75rem; height: 2.75rem; place-items: center; border: 1px solid #bdb7aa; border-radius: 50%; background: var(--color-surface); color: var(--color-ink); box-shadow: 0 6px 20px rgb(17 25 34 / 16%); transition: color var(--duration-fast) var(--ease-standard), background-color var(--duration-fast) var(--ease-standard), border-color var(--duration-fast) var(--ease-standard), transform var(--duration-fast) var(--ease-standard); }
 .back-to-top svg { width: 1.1rem; height: 1.1rem; fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.8; }
 .back-to-top:hover { transform: translateY(-3px); border-color: var(--color-highlight); background: var(--color-ink); color: var(--color-highlight); }
 .site-footer .wordmark { color: var(--color-paper); }
-.site-footer .wordmark span { color: var(--color-highlight); }
 .site-footer .footer-nav a,.site-footer .footer-back { color: #c0c8ca; }
 .site-footer .footer-nav a:hover,.site-footer .footer-back:hover { color: var(--color-highlight); }
 .site-footer__bottom { display: flex; justify-content: space-between; gap: 1rem; padding-top: 1.2rem; border-top: 1px solid rgb(244 241 234 / 18%); color: #c0c8ca; font-size: var(--text-xs); }

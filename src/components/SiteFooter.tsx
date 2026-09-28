@@ -9,7 +9,7 @@ export function SiteFooter() {
   return (
     <footer className="site-footer">
       <div className="container site-footer__top">
-        <div><a className="wordmark wordmark--footer" href="#top" aria-label="Aanine home">aanine<span aria-hidden="true">.</span></a><p>Thoughtful websites for<br />businesses moving forward.</p></div>
+        <div><a className="wordmark wordmark--footer" href="#top" aria-label="Aanine home"><img src="/aanine-logo-footer.svg" alt="" aria-hidden="true" /></a><p>Thoughtful websites for<br />businesses moving forward.</p></div>
         <nav className="footer-nav" aria-label="Footer navigation">{footerLinks.map((link) => <a key={link.href} href={link.href}>{link.label}</a>)}</nav>
       </div>
       <div className="container site-footer__bottom"><span>© {new Date().getFullYear()} Aanine Studio</span><span>Made with care for what’s next.</span></div>
