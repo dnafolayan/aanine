@@ -14,8 +14,8 @@ export function SiteHeader() {
     return (
         <header className="site-header">
             <div className="site-header__inner">
-                <a className="wordmark" href="#top" aria-label="Aanine home">
-                    aanine<span aria-hidden="true">.</span>
+                <a className="wordmark wordmark--nav" href="#top" aria-label="Aanine home">
+                    <img src="/aanine-logo-nav.svg" alt="" aria-hidden="true" />
                 </a>
                 <button
                     ref={menuButtonRef}

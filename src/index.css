@@ -215,6 +215,8 @@ h4 {
 }
 
 .wordmark span { color: var(--color-brand); }
+.wordmark--nav { display: inline-flex; align-items: center; flex: 0 0 auto; }
+.wordmark--nav img { width: 8.25rem; height: auto; }
 
 .site-nav,
 .footer-nav {
