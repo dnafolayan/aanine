@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://aanine.vercel.app/sitemap.xml
