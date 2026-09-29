@@ -165,9 +165,9 @@ function HeroSection() {
                     <span>your business easy to choose.</span>
                 </h1>
                 <p className="hero__description">
-                    Aanine designs professional, mobile-ready websites for
-                    small businesses—helping customers understand what you do
-                    and how to get in touch.
+                    Aanine designs professional, mobile-ready websites for small
+                    businesses—helping customers understand what you do and how
+                    to get in touch.
                 </p>
                 <div className="hero__actions">
                     <a className="button button--primary" href="#contact">
@@ -360,7 +360,8 @@ function PricingSection() {
                     <p className="price-card__detail">
                         A custom-designed, responsive one-page site with an
                         enquiry form, essential SEO setup, and launch guidance.
-                        Multi-page sites and custom features are quoted separately.
+                        Multi-page sites and custom features are quoted
+                        separately.
                     </p>
                     <ul>
                         <li>
@@ -368,7 +369,8 @@ function PricingSection() {
                             your business
                         </li>
                         <li>
-                            <span aria-hidden="true">✓</span> Responsive website build
+                            <span aria-hidden="true">✓</span> Responsive website
+                            build
                         </li>
                         <li>
                             <span aria-hidden="true">✓</span> Essential search
@@ -389,7 +391,8 @@ function PricingSection() {
                     </a>
                     <p className="price-card__footnote">
                         You provide content and brand assets. Domain and hosting
-                        are separate. Your quote confirms scope and review rounds.
+                        are separate. Your quote confirms scope and review
+                        rounds.
                     </p>
                 </div>
             </div>
@@ -520,7 +523,8 @@ function ContactSection() {
                     </h2>
                     <p>
                         Tell us what your business needs. We’ll review your
-                        enquiry and follow up by email about scope and next steps.
+                        enquiry and follow up by email about scope and next
+                        steps.
                     </p>
                 </div>
                 <form
@@ -600,6 +604,14 @@ function ContactSection() {
                         Prefer email? Write to us at{" "}
                         <a href="mailto:divineafolayan05@gmail.com">
                             divineafolayan05@gmail.com
+                        </a>
+                        . You can also{" "}
+                        <a
+                            href="https://wa.me/2348028318981"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            message us on WhatsApp
                         </a>
                         .
                     </p>
